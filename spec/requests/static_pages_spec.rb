@@ -28,7 +28,7 @@ describe "Static pages" do
 
     it "should have the title 'Help'" do
       visit help_path
-      expect(page).to have_title('Help')
+      expect(page).to have_title('Userbased App | Help')
     end
   end
 
@@ -39,7 +39,7 @@ describe "Static pages" do
     end
 
     it "should have the title 'About Us'" do
-      visit abut_path
+      visit about_path
       expect(page).to have_title("Userbased App | About Us")
     end
   end
