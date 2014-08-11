@@ -1,7 +1,7 @@
-<%= provide(:title, "All users") %>
-<h1>All users</h1>
+<%= provide(:title, I18n.t('views.users.title_index')) %>
+<h1><%= I18n.t('views.users.h1_index') %></h1>
 
-<%= will_paginate %>
+<%= will_paginate :previous_label => I18n.t('views.users.previous_label'), :next_label => I18n.t('views.users.next_label') %>
 
 <ul class="users">
   <%= render @users %>

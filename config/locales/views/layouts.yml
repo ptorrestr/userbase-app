@@ -1,0 +1,28 @@
+en:
+  views:
+    layouts:
+      home: Home
+      help: Help
+      account: Account
+      about: About
+      contact: Contact
+      users: Users
+      profile: Profile
+      settings: Settings
+      signout: Sign out
+      signin: Sign in
+
+es:
+  views:
+    layouts:
+      home: Inicio
+      help: Ayuda
+      account: Cuenta
+      about: Acerca
+      contact: Contacto
+      users: Usuarios
+      profile: Perfil
+      settings: Configuración
+      signout: Salir
+      signin: Ingresar
+        

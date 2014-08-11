@@ -84,7 +84,7 @@ describe "UserPages" do
         fill_in "Name", with: "Example User"
         fill_in "Email", with: "user@example.com"
         fill_in "Password", with: "foobar"
-        fill_in "Confirmation", with: "foobar"
+        fill_in "Password confirmation", with: "foobar"
       end
  
       it "should create a user" do
@@ -112,7 +112,7 @@ describe "UserPages" do
     describe "page" do
       it { should have_content("Update your profile") }
       it { should have_title("Edit user") }
-      it { should have_link("change", href: "http://gravatar.com/emails") }
+      it { should have_link("Change gravatar", href: "http://gravatar.com/emails") }
     end
 
     describe "with invalid information" do
@@ -128,7 +128,7 @@ describe "UserPages" do
         fill_in "Name", with: new_name
         fill_in "Email", with: new_email
         fill_in "Password", with: user.password
-        fill_in "Confirm Password", with: user.password
+        fill_in "Password confirmation", with: user.password
         click_button "Save changes"
       end
 

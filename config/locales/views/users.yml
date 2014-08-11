@@ -1,0 +1,33 @@
+en:
+  views:
+    users:
+      title_edit: Edit user
+      h1_edit: Update your profile
+      save_button_edit: Save changes
+      change_gravatar_edit: Change gravatar
+      title_index: All users
+      h1_index: All users
+      previous_label: Previous
+      next_label: Next
+      title_new: Sign up
+      h1_new: Sign up
+      create_account_new: Create my account
+      delete_link_user: delete
+      confirm_delete_user: Are you sure?
+
+es:
+  views:
+    users:
+      title_edit: Edición de usuario
+      h1_edit: Actualizar perfil
+      save_button_edit: Guardar cambios
+      change_gravatar_edit: Cambiar gravatar
+      title_index: Usuarios
+      h1_index: Todos los usuarios
+      previous_label: Anterior
+      next_label: Siguiente
+      title_new: Registro
+      h1_new: Regístrate
+      create_account_new: Crear mi cuenta
+      delete_link_user: eliminar
+      confirm_delete_user: ¿Está seguro?

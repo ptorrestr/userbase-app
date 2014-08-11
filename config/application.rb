@@ -27,5 +27,11 @@ module UserbasedApp
 
     # avoid: I18n.enforce_available_locales will default to true in the future
     I18n.enforce_available_locales = true
+
+    config.i18n.available_locales = [:en, :es]
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', 'models', '*', '*.yml').to_s]
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', 'views', '*.yml').to_s]
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', 'routes', '*.yml').to_s]
+    config.i18n.default_locale = :en
   end
 end

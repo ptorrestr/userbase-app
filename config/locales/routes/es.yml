@@ -1,0 +1,8 @@
+es:
+  routes:
+    users: usuarios
+    new: nuevo
+    edit: editar
+    delete: eliminar
+    help: ayuda
+    

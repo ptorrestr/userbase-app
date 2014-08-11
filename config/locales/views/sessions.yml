@@ -1,0 +1,19 @@
+en:
+  views:
+    sessions:
+      title: Sign in
+      email: Email
+      password: Password
+      button_signin: Sign in
+      new_user: New user?
+      sign_now: Sing up now!
+
+es:
+  views:
+    sessions:
+      title: Ingresar
+      email: Correo electrónico
+      password: Contraseña
+      button_signin: Ingresar
+      new_user: ¿Nuevo usuario?
+      sign_now: ¡Ingresa ahora!

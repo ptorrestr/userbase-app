@@ -1,0 +1,27 @@
+# ruby enconding: utf-8
+
+es:
+  activerecord:
+    models:
+      user: 'Usuario'
+    attributes:
+      user:
+        name: 'Nombre'
+        email: 'Correo electrónico'
+        password: 'Contraseña'
+        password_confirmation: 'Confirmación contraseña'
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: está vacío
+            email:
+              blank: está vacío
+              invalid: es inválido
+            password:
+              blank: está vacía
+              too_short: es muy corta
+            password_confirmation:
+              blank: está vacía
+              confirmation: debe coincidir con la contraseña
