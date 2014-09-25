@@ -33,5 +33,9 @@ module UserbasedApp
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', 'views', '*.yml').to_s]
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', 'routes', '*.yml').to_s]
     config.i18n.default_locale = :en
+
+    RouteTranslator.config do |config|
+      config.force_locale = true
+    end
   end
 end

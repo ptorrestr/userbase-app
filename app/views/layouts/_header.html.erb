@@ -4,6 +4,15 @@
       <%= link_to "Userbased-app", '#', id: "logo" %>
       <nav>
         <ul class="nav pull-right">
+          <li id="lang-menu" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= I18n.t("views.layouts.language") %><b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to_unless I18n.locale == :en, "English", url_for(:locale => 'en') %></li>
+              <li><%= link_to_unless I18n.locale == :es, "Español", url_for(:locale => 'es' ) %></li>
+            </ul>
+          </li>
           <li><%= link_to I18n.t("views.layouts.home"), root_path %></li>
           <li><%= link_to I18n.t("views.layouts.help"), help_path %></li>
           <% if signed_in? %>
